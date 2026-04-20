@@ -1,6 +1,14 @@
-# Hugging Face / Python stuff
-*.pyc
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets
 .env
-.env
+.env.*
 token.txt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
